@@ -77,7 +77,7 @@ footer {
     font-weight: bold;
 }
 
-main {
+.main {
      background-color: #473131;
      margin: 30px 0;
      font-family: sans-serif;
@@ -103,5 +103,7 @@ main {
     .img {
         margin-top: 10px;
         align-self: center;
+        max-width: 100%;
+        height: auto;
     }
 }
