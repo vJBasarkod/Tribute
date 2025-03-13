@@ -94,5 +94,6 @@ footer {
 
     .img {
         margin-top: 10px;
+        align-self: center;
     }
 }
