@@ -1,112 +1,36 @@
-*{
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #be6767;
-    box-shadow: 0 0 10px #a705051a;
-    border-radius: 8px;
-    align-self: center;
-}
-
-.content {
+#main {
+    background-color: #EEEEEE;
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: 300;
     text-align: center;
-    align-items: center;
+    box-sizing: border-box;
+
 }
 
-.title {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 10px;
+#title {
+    font-size: 2rem;
+    padding: 30px;
 }
 
-.subtitle {
-    color: #555;
-    font-size: 1.2em;
+#img-div {
+    background:white;
+    padding: 10px;
+    margin: 0;
 }
-
-.img {
+#image {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
 }
 
-.quote {
-    font-style: italic;
-    margin-top: 20px;
-    color: #777;
+p, ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
 }
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
+  
 li {
-    margin-bottom: 10px;
-}
-
-blockquote {
-    font-style: italic;
-    margin-top: 20px;
-    color: #555;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 0 0 8px 8px;
-}
-
-#tribute-link {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.main {
-     background-color: #473131;
-     margin: 30px 0;
-     font-family: sans-serif;
-     font-weight: 300;
-     text-align: center;
-     box-sizing: border-box;
-     }
-
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 1.5em;
-    }
-
-    .subtitle {
-        font-size: 1em;
-    }
-
-    .img {
-        margin-top: 10px;
-        align-self: center;
-        max-width: 100%;
-        height: auto;
-    }
-}
+    margin: 16px 0;
+  }
+  
